@@ -395,7 +395,7 @@
 .ss h2 {
     margin-top: -51px;
 }
-                /* portfolio section */  
+                 /* portfolio section */  
 .portfolio-info {
   position: absolute;
   bottom: 0;
@@ -448,7 +448,7 @@
 	overflow:hidden;
 }
 #Portfolio {
-    margin-bottom: 62px;
+    margin-bottom: 34px;
     /*! margin-top: -8px; */
 }
 #portfoliosss {
@@ -461,7 +461,19 @@
     margin-top: -4px;
     margin-bottom: 36px;
 }
-* ============== Theme CSS  =============== */
+#testimonial {
+	background-color:rgb(100, 100, 100);
+}
+#testimonial h4{
+	padding-top:52px;
+	font-size:px;	
+}
+#testimonial h5 {
+    color: white;
+}
+
+
+/* ============== Theme CSS  =============== */
 .Portfolio-wrap {
 	font-family: Lato,Arial,sans-serif;
     font-size: 14px;
