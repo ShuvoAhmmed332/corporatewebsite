@@ -432,7 +432,7 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
- #portfoliosss .titles h2 {
+ .titles h2 {
     /*! position: absolute; */
     left: 0px;
     top: 0px;
@@ -447,7 +447,7 @@
     font-size: 45px;
 	overflow:hidden;
 }
-#portfoliosss .titles p {
+.titles p {
     margin-top: 26px;
     font-size: 28px;
     font-family: arial;
