@@ -1,20 +1,7 @@
- /* ==== Menubar Active Start ===== */
-  $('#main-menu').on('click', 'li',function(){
-    $('#main-menu li.active').removeClass('active');
-    $(this).addClass('active');
-  });
-  
-  /* ==== Menubar Start ===== */
-  $('#mobile-icon').click(function(){
-    $('#main-menu ul').slideToggle(1000);
-  });
-  $(window).resize(function(){
-    if($(window).width() > 576){
-      $('#main-menu ul').show();
-    }else{
-      $('#main-menu ul').hide();
-    }
-  });
+  $('.counter').counterUp({
+			delay: 10,
+			time: 1000
+			});
   
   /* ==== top to button ===== */
 
