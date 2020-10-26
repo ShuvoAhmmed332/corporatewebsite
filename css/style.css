@@ -810,7 +810,7 @@
 
 
 
-.upper {
+#upper {
     position: fixed;
     background-color:green;
     right: 22px;
@@ -822,6 +822,6 @@
     display: none;
     border-radius: 50px;
 }
-.upper i {
+#upper i {
     color: white;
 }
