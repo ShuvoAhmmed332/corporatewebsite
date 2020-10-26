@@ -448,11 +448,11 @@
 	overflow:hidden;
 }
 #Portfolio {
-    margin-bottom: 28px;
-    margin-top: -13px;
+    margin-bottom: 34px;
+    /*! margin-top: -8px; */
 }
 #portfoliosss {
-    margin-bottom: 53px;
+    margin-bottom: 62px;
 }
 #portfoliosss .line .bg-primary {
     background-color:blue;
@@ -461,9 +461,6 @@
     margin-top: -4px;
     margin-bottom: 36px;
 }
-
-
-
 /* ============== Theme CSS  =============== */
 .Portfolio-wrap {
 	font-family: Lato,Arial,sans-serif;
