@@ -35,6 +35,10 @@
     font-size: 17px;
 	color: #fff;
 }
+#hompage .typewrite{
+	color: white;
+	font-weight: 594;
+}
 #hompage h4 {
     /*! padding-bottom: 0px; */
     text-transform: capitalize;
