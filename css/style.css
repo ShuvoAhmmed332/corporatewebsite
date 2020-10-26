@@ -421,7 +421,7 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
- .titles h2 {
+ #portfoliosss .titles h2 {
     /*! position: absolute; */
     left: 0px;
     top: 0px;
@@ -436,7 +436,7 @@
     font-size: 45px;
 	overflow:hidden;
 }
-.titles p {
+#portfoliosss .titles p {
     margin-top: 26px;
     font-size: 28px;
     font-family: arial;
@@ -461,19 +461,7 @@
     margin-top: -4px;
     margin-bottom: 36px;
 }
-#testimonial {
-	background-color:rgb(100, 100, 100);
-}
-#testimonial h4{
-	padding-top:52px;
-	font-size:px;	
-}
-#testimonial h5 {
-    color: white;
-}
 
-
-/* ============== Theme CSS  =============== */
 .Portfolio-wrap {
 	font-family: Lato,Arial,sans-serif;
     font-size: 14px;
@@ -497,17 +485,7 @@
   height: 100%;
 }
 
-.portfolio-info h4 {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+
         /* contact section */
 #contact {
     padding-top: 78px;
