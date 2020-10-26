@@ -1,4 +1,5 @@
                            /* navbar section */  
+            /* navbar section */  
 .navbar-nav {
 	padding:3px;
 	margin-right: 57px;
@@ -35,11 +36,10 @@
     font-size: 17px;
 	color: #fff;
 }
-#hompage .wrap {
-    color: white;
-    text-decoration: none;
-    font-size: 41px;
-    font-weight: 600;
+#hompage .typewrite{
+	color: white;
+	font-weight: 594;
+
 }
 #hompage h4 {
     /*! padding-bottom: 0px; */
@@ -50,7 +50,18 @@
     margin-top: 230px;
     margin-right: 13px;
 }
-
+.count h1{
+  text-align: center;
+  color:green;
+  text-decoration: none;
+  font-size: 47px;
+}
+.count h1 a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 600;
+}
 #hompage h3 {
     padding-bottom: 11px;
 }
@@ -294,11 +305,11 @@
     margin-bottom: 35px;
     font-size: 25px;
 }
-.wrapper{
+/* .wrapper{
         width: 500px;
         font-family: 'Roboto', sans-serif;
 	    margin:0 auto;
-    }
+    /* } */ */
     .skill {
         margin-bottom: 35px;
         position: relative;
@@ -395,7 +406,7 @@
 .ss h2 {
     margin-top: -51px;
 }
-                 /* portfolio section */  
+                /* portfolio section */  
 .portfolio-info {
   position: absolute;
   bottom: 0;
@@ -780,8 +791,6 @@
   font-size: 18px;
   margin-top: 10px;
 }
-
-
 
 #upper {
     position: fixed;
