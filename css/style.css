@@ -1,6 +1,5 @@
                            /* navbar section */  
-            /* navbar section */  
-.navbar-nav {
+            .navbar-nav {
 	padding:3px;
 	margin-right: 57px;
 	font-size: 16px;	
@@ -36,10 +35,11 @@
     font-size: 17px;
 	color: #fff;
 }
-#hompage .typewrite{
-	color: white;
-	font-weight: 594;
-
+#hompage .wrap {
+    color: white;
+    text-decoration: none;
+    font-size: 41px;
+    font-weight: 600;
 }
 #hompage h4 {
     /*! padding-bottom: 0px; */
@@ -50,18 +50,7 @@
     margin-top: 230px;
     margin-right: 13px;
 }
-.count h1{
-  text-align: center;
-  color:green;
-  text-decoration: none;
-  font-size: 47px;
-}
-.count h1 a {
-    color: white;
-    text-decoration: none;
-    background-color: transparent;
-    font-weight: 600;
-}
+
 #hompage h3 {
     padding-bottom: 11px;
 }
@@ -305,11 +294,11 @@
     margin-bottom: 35px;
     font-size: 25px;
 }
-/* .wrapper{
+.wrapper{
         width: 500px;
         font-family: 'Roboto', sans-serif;
 	    margin:0 auto;
-    /* } */ */
+    }
     .skill {
         margin-bottom: 35px;
         position: relative;
@@ -406,7 +395,7 @@
 .ss h2 {
     margin-top: -51px;
 }
-                /* portfolio section */  
+                 /* portfolio section */  
 .portfolio-info {
   position: absolute;
   bottom: 0;
@@ -432,7 +421,7 @@
   transform: translate(-50%, -50%);
   text-align: center;
 }
- .titles h2 {
+ #portfoliosss .titles h2 {
     /*! position: absolute; */
     left: 0px;
     top: 0px;
@@ -447,7 +436,7 @@
     font-size: 45px;
 	overflow:hidden;
 }
-.titles p {
+#portfoliosss .titles p {
     margin-top: 26px;
     font-size: 28px;
     font-family: arial;
@@ -792,6 +781,8 @@
   margin-top: 10px;
 }
 
+
+
 #upper {
     position: fixed;
     background-color:green;
@@ -807,3 +798,4 @@
 #upper i {
     color: white;
 }
+
