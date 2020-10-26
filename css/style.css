@@ -1,4 +1,4 @@
-                        /* navbar section */  
+                           /* navbar section */  
 .navbar-nav {
 	padding:3px;
 	margin-right: 57px;
@@ -34,10 +34,6 @@
     /*! height: 46px; */
     font-size: 17px;
 	color: #fff;
-}
-#hompage .typewrite{
-	color: white;
-	font-weight: 594;
 }
 #hompage h4 {
     /*! padding-bottom: 0px; */
@@ -812,6 +808,8 @@
   margin-top: 10px;
 }
 
+
+
 #upper {
     position: fixed;
     background-color:green;
@@ -827,4 +825,3 @@
 #upper i {
     color: white;
 }
-
