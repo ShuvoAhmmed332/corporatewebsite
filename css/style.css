@@ -396,75 +396,52 @@
     margin-top: -51px;
 }
                  /* portfolio section */  
-.portfolio-info {
-  position: absolute;
-  bottom: 0;
-  left:;
-  right: 0;
-  background-color: rgba(88, 113, 109, 0.6);
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
-  transition: .5s ease;  
+#portfoliosss  {
+    font-family: Lato,Arial,sans-serif;
+    font-size: 14px;
+    margin-bottom: 42px;
 }
-.Portfolio-wrap:hover .portfolio-info {
-  height: 100%;
-}
-.portfolio-info h4 {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
- #portfoliosss .titles h2 {
+ .gg h2 {
     /*! position: absolute; */
     left: 0px;
     top: 0px;
     right: 0px;
     z-index: -1;
     /*! font-size: 81px; */
-    color: #e0e0e0;
+    color: #f2b2b2;
     font-family: ui-sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-    /*! margin-top: -65px; */
+    margin-top: 25px;
     font-size: 45px;
 	overflow:hidden;
+    font-weight: 604;
 }
-#portfoliosss .titles p {
+ .gg p {
     margin-top: 26px;
     font-size: 28px;
     font-family: arial;
     text-transform: capitalize;
-    font-weight: 226;
+    /*! font-weight: 638; */
     margin-top: 6px;
     margin-top: -35px;
     margin-top: -57px;
 	overflow:hidden;
 }
-#Portfolio {
-    margin-bottom: 34px;
-    /*! margin-top: -8px; */
-}
-#portfoliosss {
-    margin-bottom: 62px;
-}
-#portfoliosss .line .bg-primary {
+.line .bg-primary {
     background-color:blue;
     height: 2px;
-    width: 130px;
-    margin-top: -4px;
-    margin-bottom: 36px;
+    width: 126px;
+    /*! margin-top: -22px; */
+    margin-bottom: 49px;
+}
+
+ .btn-group {
+    margin-bottom: 23px;
+    margin-top: -22px;
 }
 
 .Portfolio-wrap {
-	font-family: Lato,Arial,sans-serif;
-    font-size: 14px;
   position: relative;
   width: 100%;
 }
@@ -481,11 +458,23 @@
   transition: .5s ease;
 }
 
+
 .Portfolio-wrap:hover .portfolio-info {
   height: 100%;
 }
 
-
+.portfolio-info h4 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}		
+      
         /* contact section */
 #contact {
     padding-top: 78px;
