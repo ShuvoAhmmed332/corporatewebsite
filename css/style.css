@@ -788,3 +788,17 @@
     color: white;
 }
 
+
+@media screen and (max-width: 1024px) {
+  #portfolio .img-fluid {
+    width: 50%;
+    padding:0 15px;
+}
+}
+
+@media screen and (max-width: 640px) {
+  #portfolio .img-fluid {
+    width: 100%;
+}
+}
+
