@@ -1,5 +1,5 @@
-                           /* navbar section */  
-            .navbar-nav {
+                                      /* navbar section */  
+.navbar-nav {
 	padding:3px;
 	margin-right: 57px;
 	font-size: 16px;	
@@ -35,12 +35,6 @@
     font-size: 17px;
 	color: #fff;
 }
-#hompage .wrap {
-    color: white;
-    text-decoration: none;
-    font-size: 41px;
-    font-weight: 600;
-}
 #hompage h4 {
     /*! padding-bottom: 0px; */
     text-transform: capitalize;
@@ -50,7 +44,18 @@
     margin-top: 230px;
     margin-right: 13px;
 }
-
+.count h1{
+  text-align: center;
+  color:green;
+  text-decoration: none;
+  font-size: 47px;
+}
+.count h1 a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    font-weight: 600;
+}
 #hompage h3 {
     padding-bottom: 11px;
 }
@@ -174,7 +179,7 @@
     font-weight: 501;
 }
 #service h4 i {
-    border: 1px solid; 
+    border: 1px solid #e5dcdc; 
     width: 23%;
     height: 46px;
     font-size: 24px;
@@ -183,6 +188,10 @@
     padding-top: 10px;
    
     border-radius: 7px;
+}
+#service h4 i:hover {
+    background-color: #ffb3b3;
+    color: white;
 }
 
 #service p {
@@ -395,53 +404,88 @@
 .ss h2 {
     margin-top: -51px;
 }
-                 /* portfolio section */  
-#portfoliosss  {
-    font-family: Lato,Arial,sans-serif;
-    font-size: 14px;
-    margin-bottom: ;
+                /* portfolio section */  
+.portfolio-info {
+  position: absolute;
+  bottom: 0;
+  left:;
+  right: 0;
+  background-color: rgba(88, 113, 109, 0.6);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;  
 }
- .gg h2 {
+.Portfolio-wrap:hover .portfolio-info {
+  height: 100%;
+}
+.portfolio-info h4 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+ .titles h2 {
     /*! position: absolute; */
     left: 0px;
     top: 0px;
     right: 0px;
     z-index: -1;
     /*! font-size: 81px; */
-    color: #f2b2b2;
+    color: #e0e0e0;
     font-family: ui-sans-serif;
     text-transform: uppercase;
     font-weight: bold;
-    margin-top: 25px;
+    /*! margin-top: -65px; */
     font-size: 45px;
 	overflow:hidden;
-    font-weight: 604;
 }
- .gg p {
+.titles p {
     margin-top: 26px;
     font-size: 28px;
     font-family: arial;
     text-transform: capitalize;
-    /*! font-weight: 638; */
+    font-weight: 226;
     margin-top: 6px;
     margin-top: -35px;
     margin-top: -57px;
 	overflow:hidden;
 }
-.line .bg-primary {
+#Portfolio {
+    margin-bottom: 28px;
+    margin-top: -13px;
+}
+#portfoliosss {
+    margin-bottom: 53px;
+}
+#portfoliosss .line .bg-primary {
     background-color:blue;
     height: 2px;
-    width: 126px;
-    /*! margin-top: -22px; */
-    margin-bottom: 49px;
+    width: 130px;
+    margin-top: -4px;
+    margin-bottom: 36px;
+}
+#testimonial {
+	background-color:rgb(100, 100, 100);
+}
+#testimonial h4{
+	padding-top:52px;
+	font-size:px;	
+}
+#testimonial h5 {
+    color: white;
 }
 
- .btn-group {
-    margin-bottom: 23px;
-    margin-top: ;
-}
 
+/* ============== Theme CSS  =============== */
 .Portfolio-wrap {
+	font-family: Lato,Arial,sans-serif;
+    font-size: 14px;
   position: relative;
   width: 100%;
 }
@@ -458,7 +502,6 @@
   transition: .5s ease;
 }
 
-
 .Portfolio-wrap:hover .portfolio-info {
   height: 100%;
 }
@@ -473,8 +516,7 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-}		
-      
+}
         /* contact section */
 #contact {
     padding-top: 78px;
@@ -786,19 +828,5 @@
 }
 #upper i {
     color: white;
-}
-
-
-@media screen and (max-width: 1024px) {
-  #portfolio .img-fluid {
-    width: 50%;
-    padding:0 15px;
-}
-}
-
-@media screen and (max-width: 640px) {
-  #portfolio .img-fluid {
-    width: 100%;
-}
 }
 
