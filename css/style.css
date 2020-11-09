@@ -1,4 +1,4 @@
-                                                  /* navbar section */  
+ /* navbar section */  
 .navbar-nav {
 	padding:3px;
 	margin-right: 57px;
@@ -18,7 +18,8 @@
 	text-transform:capitalize;
 }
 
-         /* hompage section */ 
+         /* hompage section */
+
 .mouse_body {
   border-style: solid;
   border-width: 4px;
@@ -133,6 +134,7 @@
     width: 145px;
     margin-top: -8px;
 }
+
        
          /* about section */  
 #about {
@@ -241,13 +243,28 @@
     color: #5c00b9;
     margin-bottom: 11px;
 }
+#service h4 i {
+    border: 1px solid #e5dcdc; 
+    width: 23%;
+    height: 46px;
+    font-size: 24px;
+    background-color:rgb(240, 240, 240);
+    margin-top: 6px;
+    padding-top: 10px;
+   
+    border-radius: 7px;
+}
+#service h4 i:hover {
+    background-color: #ffb3b3;
+    color: white;
+}
 #service h3 {
     font-size: 22px;
     text-transform: uppercase;
     font-weight: 501;
 }
 #service h4 i {
-    border: 1px solid; 
+    border: 1px solid wheat; 
     width: 23%;
     height: 46px;
     font-size: 24px;
@@ -524,17 +541,103 @@
     margin-bottom: 28px;
     margin-top: -13px;
 }
-#portfoliosss {
-    margin-bottom: 53px;
+/* portfolio section */  
+#portfoliosss .Portfolio-wrap .img-fluid {
+    width: 100%;
+    height: 250px;
 }
-#portfoliosss .line .bg-primary {
-    background-color:blue;
-    height: 2px;
-    width: 130px;
-    margin-top: -4px;
-    margin-bottom: 36px;
+#portfoliosss .Portfolio-wrap {
+	font-family: Lato,Arial,sans-serif;
+    font-size: 14px;
+  position: relative;
+  width: 100%;
+}
+ #portfoliosss .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:rgba(240, 89, 7, 0.82);
+}
+#portfoliosss .overlay .texts i {
+    border: 1px solid;
+    font-size: 30px;
+    width: 54px;
+    height: 54px;
+    padding: 11px;
+    border-radius: 50px;
 }
 
+#portfoliosss .Portfolio-wrap:hover .overlay {
+  opacity: 1;
+  height: 100%;
+}
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 28px;
+  left: 25px;
+}
+.texts {
+  color: white;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+#portfoliosss {
+    margin-top: 64px;
+    margin-bottom: 29px;
+}
+#portfoliosss p {
+    margin-bottom: 28px;
+    font-size: 28px;
+    margin-top: -56px;
+}
+
+#portfoliosss .line .bg-primary {
+    background-color:blue;
+    height: 3px;
+    width: 108px;
+    margin-top: -20px;
+    margin-bottom: 29px;
+    text-align: ;
+}
+
+.titles h2 {
+    /*! position: absolute; */
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+    /*! font-size: 81px; */
+    color: #e0e0e0;
+    font-family: ui-sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    /*! margin-top: -65px; */
+    font-size: 45px;
+	overflow:hidden;
+}
+.titles p {
+    margin-top: 26px;
+    font-size: 28px;
+    font-family: arial;
+    text-transform: capitalize;
+    font-weight: 226;
+    margin-top: 6px;
+    margin-top: -35px;
+    margin-top: -57px;
+	overflow:hidden;
+}
 /* ============== Theme CSS  =============== */
 .Portfolio-wrap {
 	font-family: Lato,Arial,sans-serif;
